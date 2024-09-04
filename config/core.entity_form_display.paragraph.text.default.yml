@@ -5,13 +5,14 @@ dependencies:
   config:
     - field.field.paragraph.text.field_body
     - field.field.paragraph.text.field_link
+    - field.field.paragraph.text.field_text_layout
     - field.field.paragraph.text.field_title
     - paragraphs.paragraphs_type.text
   module:
     - link
     - text
 _core:
-  default_config_hash: avwbTQSL4FXBv2l_9fKl_2P_OB_bKAfr4vPkCrRc7Ck
+  default_config_hash: W2SkInvMi_sClEG5iMU6Qs8Cv6cgbG36ahBTeHoP9X8
 id: paragraph.text.default
 targetEntityType: paragraph
 bundle: text
@@ -19,7 +20,7 @@ mode: default
 content:
   field_body:
     type: text_textarea_with_summary
-    weight: 1
+    weight: 2
     region: content
     settings:
       rows: 9
@@ -29,11 +30,17 @@ content:
     third_party_settings: {  }
   field_link:
     type: link_default
-    weight: 26
+    weight: 3
     region: content
     settings:
       placeholder_url: ''
       placeholder_title: ''
+    third_party_settings: {  }
+  field_text_layout:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
     third_party_settings: {  }
   field_title:
     type: string_textfield
