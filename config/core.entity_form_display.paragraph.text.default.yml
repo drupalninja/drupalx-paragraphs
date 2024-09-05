@@ -4,7 +4,9 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.text.field_body
+    - field.field.paragraph.text.field_eyebrow
     - field.field.paragraph.text.field_link
+    - field.field.paragraph.text.field_link2
     - field.field.paragraph.text.field_text_layout
     - field.field.paragraph.text.field_title
     - paragraphs.paragraphs_type.text
@@ -12,7 +14,7 @@ dependencies:
     - link
     - text
 _core:
-  default_config_hash: W2SkInvMi_sClEG5iMU6Qs8Cv6cgbG36ahBTeHoP9X8
+  default_config_hash: kMlc7p9jhceOPwgsu9UW2DC3ZAGeuIzsHHhxVLi09mA
 id: paragraph.text.default
 targetEntityType: paragraph
 bundle: text
@@ -28,9 +30,25 @@ content:
       placeholder: ''
       show_summary: false
     third_party_settings: {  }
+  field_eyebrow:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   field_link:
     type: link_default
     weight: 3
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_link2:
+    type: link_default
+    weight: 4
     region: content
     settings:
       placeholder_url: ''
