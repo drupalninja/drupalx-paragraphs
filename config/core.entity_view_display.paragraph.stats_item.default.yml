@@ -8,10 +8,8 @@ dependencies:
     - field.field.paragraph.stats_item.field_summary
     - field.field.paragraph.stats_item.field_title
     - paragraphs.paragraphs_type.stats_item
-  module:
-    - material_icons
 _core:
-  default_config_hash: 7p11oRDXccrmjI-ZDni2UX75bL2rztFkklD8-wwPSbw
+  default_config_hash: QaNAoRrHfQbbViCsZqc_15FvFe1FX_x4ZiTEWjh_TmY
 id: paragraph.stats_item.default
 targetEntityType: paragraph
 bundle: stats_item
@@ -27,11 +25,12 @@ content:
     weight: 3
     region: content
   field_icon:
-    type: material_icons
-    label: hidden
-    settings: {  }
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 2
+    weight: 4
     region: content
   field_summary:
     type: basic_string

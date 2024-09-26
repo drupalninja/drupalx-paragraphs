@@ -1,0 +1,76 @@
+uuid: 62a5e6db-08d0-4dab-a2ec-78a12f74d92b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_stats
+    - paragraphs.paragraphs_type.sidebyside
+    - paragraphs.paragraphs_type.stats_item
+  module:
+    - entity_reference_revisions
+id: paragraph.sidebyside.field_stats
+field_name: field_stats
+entity_type: paragraph
+bundle: sidebyside
+label: Stats
+description: 'Optional stat cards to display within the content area.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      stats_item: stats_item
+    negate: 0
+    target_bundles_drag_drop:
+      accordion:
+        weight: 17
+        enabled: false
+      accordion_item:
+        weight: 18
+        enabled: false
+      card:
+        weight: 19
+        enabled: false
+      card_group:
+        weight: 20
+        enabled: false
+      carousel:
+        weight: 21
+        enabled: false
+      carousel_item:
+        weight: 22
+        enabled: false
+      embed:
+        weight: 23
+        enabled: false
+      gallery:
+        weight: 24
+        enabled: false
+      hero:
+        weight: 25
+        enabled: false
+      media:
+        weight: 26
+        enabled: false
+      newsletter:
+        weight: 27
+        enabled: false
+      quote:
+        weight: 28
+        enabled: false
+      sidebyside:
+        weight: 29
+        enabled: false
+      stats_item:
+        weight: 30
+        enabled: true
+      text:
+        weight: 31
+        enabled: false
+      views:
+        weight: 32
+        enabled: false
+field_type: entity_reference_revisions

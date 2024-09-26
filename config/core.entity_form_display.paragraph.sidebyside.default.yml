@@ -7,15 +7,19 @@ dependencies:
     - field.field.paragraph.sidebyside.field_link
     - field.field.paragraph.sidebyside.field_media
     - field.field.paragraph.sidebyside.field_sidebyside_layout
+    - field.field.paragraph.sidebyside.field_stats
     - field.field.paragraph.sidebyside.field_summary
     - field.field.paragraph.sidebyside.field_title
     - paragraphs.paragraphs_type.sidebyside
   module:
     - link
     - media_library
+    - paragraphs
+    - paragraphs_ee
+    - paragraphs_features
     - text
 _core:
-  default_config_hash: L6IFvcCLPoYw1x2cZ10EuQD4pSaof6ptdRrWlMfwLVQ
+  default_config_hash: 4n5cWE9hKuqDW51jVwysNigRwpqR8OuXvttBq2W57rI
 id: paragraph.sidebyside.default
 targetEntityType: paragraph
 bundle: sidebyside
@@ -50,6 +54,37 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_stats:
+    type: paragraphs
+    weight: 7
+    region: content
+    settings:
+      title: Stats
+      title_plural: 'Stat items'
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: stats_item
+      features:
+        add_above: '0'
+        collapse_edit_all: '0'
+        convert: '0'
+        duplicate: '0'
+    third_party_settings:
+      paragraphs_features:
+        add_in_between: false
+        add_in_between_link_count: 3
+        delete_confirmation: false
+        show_drag_and_drop: true
+        show_collapse_all: false
+      paragraphs_ee:
+        paragraphs_ee:
+          dialog_off_canvas: false
+          dialog_style: tiles
+          drag_drop: false
   field_summary:
     type: text_textarea
     weight: 5

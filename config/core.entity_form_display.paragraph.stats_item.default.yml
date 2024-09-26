@@ -9,10 +9,9 @@ dependencies:
     - field.field.paragraph.stats_item.field_title
     - paragraphs.paragraphs_type.stats_item
   module:
-    - material_icons
     - media_library
 _core:
-  default_config_hash: e1TKfRPKfFnYFh9_BcWnKnNw31_9fXhTRox-5zThJrM
+  default_config_hash: ASEDjWIdlPGWALzIksDqaIAJpycQht2QaNecOcDH7DA
 id: paragraph.stats_item.default
 targetEntityType: paragraph
 bundle: stats_item
@@ -26,13 +25,12 @@ content:
       media_types: {  }
     third_party_settings: {  }
   field_icon:
-    type: material_icons
+    type: string_textfield
     weight: 0
     region: content
     settings:
-      allow_style: true
-      default_style: ''
-      allow_classes: true
+      size: 15
+      placeholder: ''
     third_party_settings: {  }
   field_summary:
     type: string_textarea

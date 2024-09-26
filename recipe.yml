@@ -10,7 +10,6 @@ install:
   - options
   - text
   # Contrib
-  - material_icons
   - paragraphs
   - paragraphs_features
   - paragraphs_ee

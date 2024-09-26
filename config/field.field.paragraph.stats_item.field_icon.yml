@@ -1,23 +1,21 @@
-uuid: 3e28b4e6-229b-487b-b530-c2c9db836920
+uuid: 130ff37d-3e53-471f-b7a2-6e56824cc5b7
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_icon
     - paragraphs.paragraphs_type.stats_item
-  module:
-    - material_icons
 _core:
-  default_config_hash: dngmAsKiFsM7K-r6sjAfrshyJGNPHA4WZmcLtvuW0DY
+  default_config_hash: fyq7cylF55Kv7hKSKbNi221qVm2cOSlxORC11Isq6VE
 id: paragraph.stats_item.field_icon
 field_name: field_icon
 entity_type: paragraph
 bundle: stats_item
 label: Icon
-description: ''
+description: 'Material icon name.'
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: material_icons
+field_type: string

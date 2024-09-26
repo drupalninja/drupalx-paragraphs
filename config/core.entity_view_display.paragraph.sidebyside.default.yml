@@ -7,15 +7,17 @@ dependencies:
     - field.field.paragraph.sidebyside.field_link
     - field.field.paragraph.sidebyside.field_media
     - field.field.paragraph.sidebyside.field_sidebyside_layout
+    - field.field.paragraph.sidebyside.field_stats
     - field.field.paragraph.sidebyside.field_summary
     - field.field.paragraph.sidebyside.field_title
     - paragraphs.paragraphs_type.sidebyside
   module:
+    - entity_reference_revisions
     - link
     - options
     - text
 _core:
-  default_config_hash: YyuuizBH8vyzmcX4c3XQaTLq3Td6VnngeA9QwEV1y7w
+  default_config_hash: Vgj7TccGzHI8h89vYPd7DxKlreOVjKBX_5rHCQ3JrxY
 id: paragraph.sidebyside.default
 targetEntityType: paragraph
 bundle: sidebyside
@@ -56,6 +58,15 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 0
+    region: content
+  field_stats:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 7
     region: content
   field_summary:
     type: text_default

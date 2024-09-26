@@ -24,7 +24,6 @@ This recipe establishes a collection of paragraph types, enabling versatile cont
 
 The following modules are automatically installed to support the paragraph functionality:
 
-- `material_icons`: Provides a library of material design icons
 - `paragraphs`: Core paragraphs functionality
 - `paragraphs_features`: Enhances paragraph editing experience
 - `paragraphs_ee`: Extends paragraphs with additional features
