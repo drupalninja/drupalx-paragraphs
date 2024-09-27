@@ -22,7 +22,7 @@ settings:
   handler: 'default:media'
   handler_settings:
     target_bundles:
-      image: image
+      image: svg_image
     sort:
       field: _none
       direction: ASC
