@@ -29,7 +29,7 @@ content:
     weight: 0
     region: content
     settings:
-      size: 15
+      size: 25
       placeholder: ''
     third_party_settings: {  }
   field_summary:
