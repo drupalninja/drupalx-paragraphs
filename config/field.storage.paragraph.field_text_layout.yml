@@ -17,6 +17,9 @@ settings:
     -
       value: left
       label: Left-aligned
+    -
+      value: buttons-right
+      label: Buttons right
   allowed_values_function: ''
 module: options
 locked: false
