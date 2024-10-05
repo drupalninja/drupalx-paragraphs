@@ -7,7 +7,7 @@ dependencies:
     - field.field.paragraph.sidebyside.field_link
     - field.field.paragraph.sidebyside.field_media
     - field.field.paragraph.sidebyside.field_sidebyside_layout
-    - field.field.paragraph.sidebyside.field_stats
+    - field.field.paragraph.sidebyside.field_features
     - field.field.paragraph.sidebyside.field_summary
     - field.field.paragraph.sidebyside.field_title
     - paragraphs.paragraphs_type.sidebyside
@@ -59,7 +59,7 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  field_stats:
+  field_features:
     type: entity_reference_revisions_entity_view
     label: above
     settings:
