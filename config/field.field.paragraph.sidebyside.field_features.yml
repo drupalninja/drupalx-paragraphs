@@ -4,16 +4,19 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.field_features
+    - paragraphs.paragraphs_type.bullet
     - paragraphs.paragraphs_type.sidebyside
     - paragraphs.paragraphs_type.stats_item
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: kxPxKrc_KcWBlOKIEhYK4ZyBA-7V0Z8X-jQj_wl8l-Y
 id: paragraph.sidebyside.field_features
 field_name: field_features
 entity_type: paragraph
 bundle: sidebyside
-label: Stats
-description: 'Optional featured items to display within the content area.'
+label: Features
+description: 'Optional featured items to display within the content area. It is best to not mix items (ie bullets or stats) in the same component.'
 required: false
 translatable: false
 default_value: {  }
@@ -22,6 +25,7 @@ settings:
   handler: 'default:paragraph'
   handler_settings:
     target_bundles:
+      bullet: bullet
       stats_item: stats_item
     negate: 0
     target_bundles_drag_drop:
@@ -31,6 +35,9 @@ settings:
       accordion_item:
         weight: 18
         enabled: false
+      bullet:
+        weight: 21
+        enabled: true
       card:
         weight: 19
         enabled: false
@@ -51,6 +58,9 @@ settings:
         enabled: false
       hero:
         weight: 25
+        enabled: false
+      logo_collection:
+        weight: 29
         enabled: false
       media:
         weight: 26
