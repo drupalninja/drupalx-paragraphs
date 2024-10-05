@@ -3,17 +3,17 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_stats
+    - field.storage.paragraph.field_features
     - paragraphs.paragraphs_type.sidebyside
     - paragraphs.paragraphs_type.stats_item
   module:
     - entity_reference_revisions
-id: paragraph.sidebyside.field_stats
-field_name: field_stats
+id: paragraph.sidebyside.field_features
+field_name: field_features
 entity_type: paragraph
 bundle: sidebyside
 label: Stats
-description: 'Optional stat cards to display within the content area.'
+description: 'Optional featured items to display within the content area.'
 required: false
 translatable: false
 default_value: {  }

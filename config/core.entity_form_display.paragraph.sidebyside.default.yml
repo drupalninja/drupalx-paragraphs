@@ -7,7 +7,7 @@ dependencies:
     - field.field.paragraph.sidebyside.field_link
     - field.field.paragraph.sidebyside.field_media
     - field.field.paragraph.sidebyside.field_sidebyside_layout
-    - field.field.paragraph.sidebyside.field_stats
+    - field.field.paragraph.sidebyside.field_features
     - field.field.paragraph.sidebyside.field_summary
     - field.field.paragraph.sidebyside.field_title
     - paragraphs.paragraphs_type.sidebyside
@@ -54,7 +54,7 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_stats:
+  field_features:
     type: paragraphs
     weight: 7
     region: content
