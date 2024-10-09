@@ -19,6 +19,9 @@ settings:
     -
       value: image_bottom
       label: 'Image Bottom'
+    -
+      value: image_bottom_split
+      label: 'Image Bottom Split Text'
   allowed_values_function: ''
 module: options
 locked: false
