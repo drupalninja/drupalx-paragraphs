@@ -8,7 +8,7 @@ dependencies:
   module:
     - options
 _core:
-  default_config_hash: APJ-9T5mwyNkeDj2kj7RvE8K4opqC1HfXNzPcjwkMaY
+  default_config_hash: VbtnxQGW6lQpdjzz0YBI3lkBua9mOwJexZuqw92ijFI
 id: paragraph.hero.field_hero_layout
 field_name: field_hero_layout
 entity_type: paragraph
@@ -17,7 +17,9 @@ label: 'Hero Layout'
 description: ''
 required: true
 translatable: false
-default_value: {  }
+default_value:
+  -
+    value: image_top
 default_value_callback: ''
 settings: {  }
 field_type: list_string
