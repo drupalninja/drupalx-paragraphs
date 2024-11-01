@@ -10,7 +10,7 @@ dependencies:
   module:
     - entity_reference_revisions
 _core:
-  default_config_hash: kxPxKrc_KcWBlOKIEhYK4ZyBA-7V0Z8X-jQj_wl8l-Y
+  default_config_hash: 6BHqDTQirFgRb-TmG690slSpyoKqp2-ChG6IjhQ2dQ4
 id: paragraph.sidebyside.field_features
 field_name: field_features
 entity_type: paragraph

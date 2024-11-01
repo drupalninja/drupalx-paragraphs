@@ -8,7 +8,7 @@ dependencies:
   module:
     - viewfield
 _core:
-  default_config_hash: nTV2xA7msnCN3I8pGYvE-l0vzhL_Q3RACfF5c5AdvpM
+  default_config_hash: rPJ9z8EwNb8iRtZqIdaN5GjGenk_K7xg9AXFRK1AB1w
 id: paragraph.views.field_views_ref
 field_name: field_views_ref
 entity_type: paragraph

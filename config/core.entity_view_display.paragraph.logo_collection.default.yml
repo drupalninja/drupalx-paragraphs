@@ -7,7 +7,7 @@ dependencies:
     - field.field.paragraph.logo_collection.field_title
     - paragraphs.paragraphs_type.logo_collection
 _core:
-  default_config_hash: MllTpUoC83KZELv-8TFTIaSgHdAcIpLGOte_kWCcpGw
+  default_config_hash: bAhmTlP3E4PEQM1ynHJ6p7M-eby53Lf8lvtd1ZyyBd0
 id: paragraph.logo_collection.default
 targetEntityType: paragraph
 bundle: logo_collection

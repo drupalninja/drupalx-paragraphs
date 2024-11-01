@@ -11,7 +11,7 @@ third_party_settings:
     paragraphs_categories:
       media: media
 _core:
-  default_config_hash: vCrSIIpgtYPig1xOrCY7pkFCNc_UGiLYfLGqBWxONn0
+  default_config_hash: mKAvLBYn4shmOym6kOaNP0OKQtIkUBakqiHP0lZpOt8
 id: logo_collection
 label: 'Logo Collection'
 icon_uuid: b7c5cce0-a4f8-4acf-a044-7547cdf1e57e

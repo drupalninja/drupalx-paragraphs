@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.paragraph.field_title
     - paragraphs.paragraphs_type.pricing
+_core:
+  default_config_hash: '-iPmyr6Z8aWlWETc9q8QDjqVQwEaswv7VRx4C-vkpEA'
 id: paragraph.pricing.field_title
 field_name: field_title
 entity_type: paragraph

@@ -4,10 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.sidebyside.field_eyebrow
+    - field.field.paragraph.sidebyside.field_features
     - field.field.paragraph.sidebyside.field_link
     - field.field.paragraph.sidebyside.field_media
     - field.field.paragraph.sidebyside.field_sidebyside_layout
-    - field.field.paragraph.sidebyside.field_features
     - field.field.paragraph.sidebyside.field_summary
     - field.field.paragraph.sidebyside.field_title
     - paragraphs.paragraphs_type.sidebyside
@@ -17,7 +17,7 @@ dependencies:
     - options
     - text
 _core:
-  default_config_hash: Vgj7TccGzHI8h89vYPd7DxKlreOVjKBX_5rHCQ3JrxY
+  default_config_hash: '-rdNjv_ks6aJZS9dOW3G2goO52en_7eVQulqMGfGgY0'
 id: paragraph.sidebyside.default
 targetEntityType: paragraph
 bundle: sidebyside
@@ -30,6 +30,15 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     weight: 4
+    region: content
+  field_features:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 7
     region: content
   field_link:
     type: link
@@ -58,15 +67,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 0
-    region: content
-  field_features:
-    type: entity_reference_revisions_entity_view
-    label: above
-    settings:
-      view_mode: default
-      link: ''
-    third_party_settings: {  }
-    weight: 7
     region: content
   field_summary:
     type: text_default

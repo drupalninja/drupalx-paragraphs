@@ -4,10 +4,9 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.field_logo
-    - media.type.image
     - paragraphs.paragraphs_type.quote
 _core:
-  default_config_hash: Q_MSBjjnOPiVGXaUkERHhw92BKHAwKapG7IgGILL94Y
+  default_config_hash: taQIozDQ6-sWvfLT2mh16kXN6jnPCvkqD28Hfhi2Ny8
 id: paragraph.quote.field_logo
 field_name: field_logo
 entity_type: paragraph

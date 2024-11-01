@@ -15,7 +15,7 @@ dependencies:
     - paragraphs_features
     - text
 _core:
-  default_config_hash: CVHRp3ldPD03Yn9-ZIWZmW3Qc5e2aQD8loG-Q1JcENc
+  default_config_hash: nllOAdZSNYaoRIqqGwhocJaKb9_eQn-0-YljvN_ESLE
 id: paragraph.pricing.default
 targetEntityType: paragraph
 bundle: pricing

@@ -7,6 +7,8 @@ dependencies:
     - paragraphs.paragraphs_type.pricing
   module:
     - text
+_core:
+  default_config_hash: fsICv8U3GmXGATKP0B8ig8b732qEnsdL92l7Rzn_5RI
 id: paragraph.pricing.field_summary
 field_name: field_summary
 entity_type: paragraph

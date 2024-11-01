@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.paragraph.field_title
     - paragraphs.paragraphs_type.logo_collection
+_core:
+  default_config_hash: aNYBTUALxwoFck2uhSayooxF7rNStIBTEVfXjMjQu4A
 id: paragraph.logo_collection.field_title
 field_name: field_title
 entity_type: paragraph

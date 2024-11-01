@@ -4,10 +4,9 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.field_media
-    - media.type.image
     - paragraphs.paragraphs_type.sidebyside
 _core:
-  default_config_hash: 44ufMUBLbFesaPBxjo8oodjCaEga0HYCtX7-wHHwlDo
+  default_config_hash: dob4trkob9NzP9ANmTrjAuuT6UCh4DPmdYcZW3Q-wgY
 id: paragraph.sidebyside.field_media
 field_name: field_media
 entity_type: paragraph

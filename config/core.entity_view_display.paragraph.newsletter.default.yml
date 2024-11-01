@@ -7,7 +7,7 @@ dependencies:
     - field.field.paragraph.newsletter.field_title
     - paragraphs.paragraphs_type.newsletter
 _core:
-  default_config_hash: exuBDpsZMmnzuK8E_8BgYN3_NVxRmFX23VNwFh8-IrY
+  default_config_hash: Cr-JUF9K9AtN0TBygPJqWR1Gip96bSK20ie3wKP-eIU
 id: paragraph.newsletter.default
 targetEntityType: paragraph
 bundle: newsletter

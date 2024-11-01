@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.newsletter
   module:
     - text
+_core:
+  default_config_hash: CTlBwg3sf9Qn_LNrMgyXX1-h9D7mtRF4GELn9x72X3g
 id: paragraph.newsletter.field_summary
 field_name: field_summary
 entity_type: paragraph

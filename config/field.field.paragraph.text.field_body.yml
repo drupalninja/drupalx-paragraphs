@@ -8,14 +8,14 @@ dependencies:
   module:
     - text
 _core:
-  default_config_hash: IQVT8EaAX6LLGdw4Qv5yQsyKP0obVEcbIg10TVroD54
+  default_config_hash: _JTjOqCe_e1nSTxvEGM_zmE3QNb5yZlQx4NO6jIrNgI
 id: paragraph.text.field_body
 field_name: field_body
 entity_type: paragraph
 bundle: text
 label: Body
 description: ''
-required: true
+required: false
 translatable: true
 default_value: {  }
 default_value_callback: ''

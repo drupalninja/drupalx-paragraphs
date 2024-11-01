@@ -6,6 +6,8 @@ dependencies:
     - field.field.paragraph.bullet.field_icon
     - field.field.paragraph.bullet.field_summary
     - paragraphs.paragraphs_type.bullet
+_core:
+  default_config_hash: b9Smgzrinr9R8P46JvW3BF4rnbNX7WdljkN71ZXOGWI
 id: paragraph.bullet.default
 targetEntityType: paragraph
 bundle: bullet

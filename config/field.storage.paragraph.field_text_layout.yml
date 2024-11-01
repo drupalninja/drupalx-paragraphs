@@ -5,6 +5,8 @@ dependencies:
   module:
     - options
     - paragraphs
+_core:
+  default_config_hash: unggeT5HtKwNjzoKr_iE1BOUGF00q3TttKKRAAEkM_w
 id: paragraph.field_text_layout
 field_name: field_text_layout
 entity_type: paragraph
@@ -19,7 +21,7 @@ settings:
       label: Left-aligned
     -
       value: buttons-right
-      label: Buttons right
+      label: 'Buttons right'
   allowed_values_function: ''
 module: options
 locked: false

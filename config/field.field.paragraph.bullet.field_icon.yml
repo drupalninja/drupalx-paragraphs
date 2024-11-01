@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.paragraph.field_icon
     - paragraphs.paragraphs_type.bullet
+_core:
+  default_config_hash: VgD1-1BcMd5i4H1BuAsucyo-uFBZvzVc2Juy1K9zVG8
 id: paragraph.bullet.field_icon
 field_name: field_icon
 entity_type: paragraph

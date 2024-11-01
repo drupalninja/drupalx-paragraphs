@@ -7,6 +7,8 @@ dependencies:
 third_party_settings:
   paragraphs_ee:
     paragraphs_categories: {  }
+_core:
+  default_config_hash: msrwInAx6yoOovYgaiCSAW8Y0psq71q6O3ib3lpmKIo
 id: bullet
 label: Bullet
 icon_uuid: null

@@ -9,7 +9,7 @@ dependencies:
     - field.field.paragraph.stats_item.field_title
     - paragraphs.paragraphs_type.stats_item
 _core:
-  default_config_hash: QaNAoRrHfQbbViCsZqc_15FvFe1FX_x4ZiTEWjh_TmY
+  default_config_hash: ElmbXIaYv1S-XHIZq5FPaTBvGyYYHBXvzFExK54M0ew
 id: paragraph.stats_item.default
 targetEntityType: paragraph
 bundle: stats_item

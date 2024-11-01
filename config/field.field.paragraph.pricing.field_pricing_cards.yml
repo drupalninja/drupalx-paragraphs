@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.pricing_card
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: NQBbOqB8cuB-dzbgCbKpM2kFOH0MhKVIp601fQ2Ne5k
 id: paragraph.pricing.field_pricing_cards
 field_name: field_pricing_cards
 entity_type: paragraph

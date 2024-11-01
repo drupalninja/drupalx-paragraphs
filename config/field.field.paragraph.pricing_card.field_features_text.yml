@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.paragraph.field_features_text
     - paragraphs.paragraphs_type.pricing_card
+_core:
+  default_config_hash: GiXLxkPd1OE-YR1YO-UaLbEavhyL6QpGEFYkKv6luZM
 id: paragraph.pricing_card.field_features_text
 field_name: field_features_text
 entity_type: paragraph

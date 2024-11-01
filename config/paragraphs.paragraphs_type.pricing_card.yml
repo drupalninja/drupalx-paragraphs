@@ -7,6 +7,8 @@ dependencies:
 third_party_settings:
   paragraphs_ee:
     paragraphs_categories: {  }
+_core:
+  default_config_hash: DYUMZGryeGkX0REC6KJ0qOsxz0UcAIcin06JzN5PjrI
 id: pricing_card
 label: 'Pricing card'
 icon_uuid: null

@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.paragraph.field_eyebrow
     - paragraphs.paragraphs_type.pricing_card
+_core:
+  default_config_hash: h61W759BgQWnCNdbGrOFrQeRhW2qp9P14GR6v7FSMBI
 id: paragraph.pricing_card.field_eyebrow
 field_name: field_eyebrow
 entity_type: paragraph

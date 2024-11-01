@@ -8,7 +8,7 @@ dependencies:
   module:
     - options
 _core:
-  default_config_hash: L_bysu70rsQiGs0QhRuTbQo9sPQXxSr1A9stqjr1Wnw
+  default_config_hash: hBM-DdiNiC7p58hxTr63quRziUPqs0ZaMzNug3OJNy0
 id: paragraph.text.field_text_layout
 field_name: field_text_layout
 entity_type: paragraph

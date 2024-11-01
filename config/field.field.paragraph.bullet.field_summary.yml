@@ -7,6 +7,8 @@ dependencies:
     - paragraphs.paragraphs_type.bullet
   module:
     - text
+_core:
+  default_config_hash: HguSqq7P9qG8FkvRcNcloFg3cgehHPCTPDJ9argATIs
 id: paragraph.bullet.field_summary
 field_name: field_summary
 entity_type: paragraph

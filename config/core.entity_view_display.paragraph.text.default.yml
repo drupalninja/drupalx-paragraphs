@@ -4,16 +4,17 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.text.field_body
+    - field.field.paragraph.text.field_eyebrow
     - field.field.paragraph.text.field_link
     - field.field.paragraph.text.field_link2
-    - field.field.paragraph.text.field_eyebrow
+    - field.field.paragraph.text.field_text_layout
     - field.field.paragraph.text.field_title
     - paragraphs.paragraphs_type.text
   module:
     - link
     - text
 _core:
-  default_config_hash: AZcSplvNrmMUpqXWEvCgtNfzT-0IcKJiNgaRobQ1pvg
+  default_config_hash: Ahw_WEYQjbixHpG-7yZM0Csw9zU-Wcy7NqHTAnRedPg
 id: paragraph.text.default
 targetEntityType: paragraph
 bundle: text
@@ -25,6 +26,14 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 0
+    region: content
+  field_eyebrow:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
     region: content
   field_link:
     type: link_separate
@@ -58,13 +67,6 @@ content:
     third_party_settings: {  }
     weight: 1
     region: content
-  field_eyebrow:
-    type: string
-    label: hidden
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    weight: 1
-    region: content
 hidden:
+  field_text_layout: true
   search_api_excerpt: true

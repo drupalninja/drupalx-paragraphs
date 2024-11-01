@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.paragraph.field_eyebrow
     - paragraphs.paragraphs_type.text
+_core:
+  default_config_hash: sMRJTcEyqBTHLdUyhkLZfaolAyPf0FrRkFN2244-5WM
 id: paragraph.text.field_eyebrow
 field_name: field_eyebrow
 entity_type: paragraph

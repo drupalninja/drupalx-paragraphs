@@ -4,10 +4,9 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.field_media
-    - media.type.image
     - paragraphs.paragraphs_type.card
 _core:
-  default_config_hash: nwRWG7lGi_kTY5nJPqnAsn-XO3ek9IGkC_fj9yTPr8s
+  default_config_hash: qhbb_g6LG676jAYrVZxPLpsa7TtuA3e3SE3uQmY5beg
 id: paragraph.card.field_media
 field_name: field_media
 entity_type: paragraph
