@@ -12,9 +12,10 @@ dependencies:
     - paragraphs.paragraphs_type.text
   module:
     - link
+    - options
     - text
 _core:
-  default_config_hash: Ahw_WEYQjbixHpG-7yZM0Csw9zU-Wcy7NqHTAnRedPg
+  default_config_hash: xiN3wxfas89OnjoKg7ROfy3qgfrlstbeLSgT99Ag_eg
 id: paragraph.text.default
 targetEntityType: paragraph
 bundle: text
@@ -45,7 +46,7 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    weight: 2
+    weight: 3
     region: content
   field_link2:
     type: link_separate
@@ -57,7 +58,14 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    weight: 2
+    weight: 4
+    region: content
+  field_text_layout:
+    type: list_key
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
     region: content
   field_title:
     type: string
@@ -65,8 +73,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 1
+    weight: 2
     region: content
 hidden:
-  field_text_layout: true
   search_api_excerpt: true
