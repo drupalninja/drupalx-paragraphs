@@ -1,0 +1,62 @@
+uuid: 9a91057c-9675-439c-b96e-aa59df1dd91a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pricing_card.field_eyebrow
+    - field.field.paragraph.pricing_card.field_features_text
+    - field.field.paragraph.pricing_card.field_link
+    - field.field.paragraph.pricing_card.field_suffix
+    - field.field.paragraph.pricing_card.field_title
+    - paragraphs.paragraphs_type.pricing_card
+  module:
+    - link
+id: paragraph.pricing_card.default
+targetEntityType: paragraph
+bundle: pricing_card
+mode: default
+content:
+  field_eyebrow:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_features_text:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_suffix:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden: {  }
