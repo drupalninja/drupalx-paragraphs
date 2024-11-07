@@ -11,7 +11,7 @@ dependencies:
     - link
     - viewfield
 _core:
-  default_config_hash: jAgeWkbLV_SyEnb-RA7zmPiTX1dOAMoA-lpWTckX5n8
+  default_config_hash: TjgH1rydytOQU-grUZJyLs0qMXRRME1P_d9VeOB-eXA
 id: paragraph.views.default
 targetEntityType: paragraph
 bundle: views
@@ -39,7 +39,7 @@ content:
     region: content
   field_views_ref:
     type: viewfield_default
-    label: above
+    label: hidden
     settings:
       view_title: hidden
       always_build_output: false
