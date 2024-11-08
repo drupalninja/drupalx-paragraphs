@@ -8,7 +8,7 @@ dependencies:
   module:
     - entity_reference_revisions
 _core:
-  default_config_hash: srqdtVWKpy80MGC7GleeCaHOmN9x9CAdigIN2r1cri0
+  default_config_hash: pbv9eLd4sT0gGiZH_yXnFLXJfmb5v70RqjoNCFp89uc
 id: paragraph.carousel.default
 targetEntityType: paragraph
 bundle: carousel
