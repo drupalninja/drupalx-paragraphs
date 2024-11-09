@@ -8,7 +8,7 @@ dependencies:
     - field.field.paragraph.carousel_item.field_title
     - paragraphs.paragraphs_type.carousel_item
 _core:
-  default_config_hash: MUgVv4H5F7UVUC1uZ0ew_Rq-DgKh9aBG4AQjGawK6Y0
+  default_config_hash: n44zMP5yyfgEw05qxA47CuHrvkIDucliA35p4z81oLM
 id: paragraph.carousel_item.default
 targetEntityType: paragraph
 bundle: carousel_item
@@ -18,7 +18,7 @@ content:
     type: entity_reference_entity_view
     label: hidden
     settings:
-      view_mode: hero
+      view_mode: default
       link: false
     third_party_settings: {  }
     weight: 1

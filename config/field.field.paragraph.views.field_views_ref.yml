@@ -38,7 +38,7 @@ settings:
     who_s_online: '0'
   allowed_display_types:
     graphql: graphql
-    block: '0'
+    block: block
     default: '0'
     feed: '0'
     page: '0'
