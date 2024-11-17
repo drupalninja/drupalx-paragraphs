@@ -4,8 +4,6 @@
   "keywords": [
     "recipe",
     "drupal recipe",
-    "drupal decoupled",
-    "drupal decopled recipe"
   ],
   "type": "drupal-recipe",
   "license": "GPL-2.0-or-later",
@@ -16,7 +14,6 @@
     }
   ],
   "require": {
-    "drupal/material_icons": "^2.0",
     "drupal/paragraphs": "^1.17",
     "drupal/paragraphs_ee": "^10.0",
     "drupal/paragraphs_features": "^2.0",
