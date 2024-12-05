@@ -3,7 +3,7 @@
   "description": "Paragraph types used in the DrupalX distribution recipe.",
   "keywords": [
     "recipe",
-    "drupal recipe",
+    "drupal recipe"
   ],
   "type": "drupal-recipe",
   "license": "GPL-2.0-or-later",
